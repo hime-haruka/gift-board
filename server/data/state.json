@@ -1,0 +1,78 @@
+{
+  "settings": {
+    "maxItems": 10,
+    "minValue": 0,
+    "fontSize": 22,
+    "showProfile": true,
+    "showGiftIcon": true,
+    "showRank": false,
+    "showValue": false,
+    "backgroundOpacity": 1,
+    "cardGap": 4,
+    "cardHeight": 59,
+    "viewSort": "latest",
+    "keepRule": "highestValue",
+    "mergeEnabled": false,
+    "mergeWindowMs": 15000,
+    "allowedGifts": "",
+    "hiddenUsers": "",
+    "boardTitle": "Gift Board",
+    "accentText": "LIVE GIFTS"
+  },
+  "gifts": [
+    {
+      "id": "member-1777185587620-m5178tz",
+      "type": "member",
+      "userId": "sora",
+      "nickname": "sora",
+      "profileUrl": "",
+      "level": 8,
+      "title": "Member Lv.8",
+      "totalValue": 0,
+      "createdAt": 1777185587620,
+      "updatedAt": 1777185587620
+    },
+    {
+      "id": "member-1777185584052-nzdhpeh",
+      "type": "member",
+      "userId": "neko123",
+      "nickname": "neko123",
+      "profileUrl": "",
+      "level": 12,
+      "title": "Member Lv.12",
+      "totalValue": 0,
+      "createdAt": 1777185584052,
+      "updatedAt": 1777185584052
+    },
+    {
+      "id": "1777184932660-ixqf5n4",
+      "type": "gift",
+      "userId": "민수",
+      "nickname": "민수",
+      "profileUrl": "",
+      "giftId": "Donut",
+      "giftName": "Donut",
+      "giftIconUrl": "",
+      "count": 5,
+      "unitValue": 30,
+      "totalValue": 150,
+      "createdAt": 1777184932660,
+      "updatedAt": 1777184932660
+    },
+    {
+      "id": "1777184701143-28ddl7x",
+      "type": "gift",
+      "userId": "neko123",
+      "nickname": "neko123",
+      "profileUrl": "",
+      "giftId": "Galaxy",
+      "giftName": "Galaxy",
+      "giftIconUrl": "",
+      "count": 1,
+      "unitValue": 1000,
+      "totalValue": 1000,
+      "createdAt": 1777184701143,
+      "updatedAt": 1777184701143
+    }
+  ]
+}
