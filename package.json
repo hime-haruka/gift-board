@@ -1,0 +1,17 @@
+{
+  "name": "tikfinity-gift-board",
+  "version": "1.0.0",
+  "description": "OBS gift/member level board for TikFinity with Render hosting",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18 <25"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}

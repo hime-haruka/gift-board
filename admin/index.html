@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gift Board Admin</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="admin">
+    <section class="panel hero">
+      <div>
+        <p class="eyebrow">TikFinity Gift Board</p>
+        <h1>관리자 페이지</h1>
+      </div>
+      <a class="link" href="/overlay" target="_blank">오버레이 열기</a>
+    </section>
+
+    <section class="panel">
+      <h2>보안</h2>
+      <label class="field">
+        <span>관리자 토큰</span>
+        <input id="token" type="password" value="dev-token" autocomplete="off" />
+      </label>
+      <p class="hint">Render 환경변수 ADMIN_TOKEN과 같은 값을 입력해야 설정/테스트가 적용됩니다. 기본값은 dev-token입니다.</p>
+    </section>
+
+    <section class="panel grid">
+      <h2>표시 설정</h2>
+      <label class="field"><span>최대 표시 개수</span><input id="maxItems" type="number" min="1" max="30"></label>
+      <label class="field"><span>최소 표시 금액</span><input id="minValue" type="number" min="0"></label>
+      <label class="field"><span>폰트 크기</span><input id="fontSize" type="range" min="12" max="42"><b id="fontSizeText"></b></label>
+      <label class="field"><span>카드 불투명도</span><input id="cardOpacity" type="range" min="30" max="100"><b id="opacityText"></b></label>
+      <label class="check"><input id="showProfiles" type="checkbox"><span>프로필 사진 표시</span></label>
+      <label class="check"><input id="showGiftImage" type="checkbox"><span>기프트 이미지 표시</span></label>
+      <label class="check"><input id="showDiamondValue" type="checkbox"><span>다이아/환산값 표시</span></label>
+      <button id="save" class="primary">설정 저장</button>
+    </section>
+
+    <section class="panel tests">
+      <h2>테스트</h2>
+      <div class="row">
+        <button id="testGift">테스트 기프트</button>
+        <button id="testMember">멤버 레벨업 테스트</button>
+        <button id="clear" class="danger">리스트 초기화</button>
+      </div>
+      <p id="status" class="status">대기 중</p>
+    </section>
+  </main>
+  <script src="./admin.js"></script>
+</body>
+</html>

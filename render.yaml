@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: tikfinity-gift-board
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ADMIN_TOKEN
+        value: dev-token

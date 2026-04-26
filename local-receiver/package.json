@@ -1,0 +1,11 @@
+{
+  "name": "tikfinity-local-receiver",
+  "version": "1.0.0",
+  "main": "receiver.js",
+  "scripts": {
+    "start": "node receiver.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

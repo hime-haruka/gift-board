@@ -1,0 +1,5 @@
+{
+  "tikfinityWsUrl": "ws://localhost:21213/",
+  "serverUrl": "https://YOUR-APP.onrender.com",
+  "adminToken": "dev-token"
+}
