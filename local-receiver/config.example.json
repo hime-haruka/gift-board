@@ -1,5 +1,5 @@
 {
   "tikfinityWsUrl": "ws://localhost:21213/",
-  "serverUrl": "https://YOUR-APP.onrender.com",
+  "serverUrl": "https://gift-board.onrender.com",
   "adminToken": "dev-token"
 }
